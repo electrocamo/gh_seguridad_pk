@@ -1,98 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-}
-/*Navegacion css*/
-html{
-    scroll-behavior: smooth;
-}
-/*NavBar*/
-header{
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
-.nav{
+html {
+    scroll-behavior: auto !important;
+  }
+  body {
+    padding: 0px;
+  }
+  .paddingzero {
+    padding: 0px;
+  }
+  header {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    transition: all 0.5s ease;
-    background-color: #e6ebe5;
-    transition: all 0.5 ease;
-    position: fixed;
-}
-.logo_img{
-    width: 10%;
-    height: 10%;
-    padding-left: 40px;
-}
-.menu{
-    display: flex;
-}
-.menu li{
-    list-style: none;
-    margin: 10px;
-}
-.menu li a{
+    height: 90px;
+    align-items: flex-end;
+    background: red;
+  }
+  nav {
+    width: 100%;
+  }
+  .btn_hover{
     color: black;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.5s;
-}
-.menu li a:hover{
-    padding: 5px 10px;
-    background-color: #ee703b;
-    border-radius: 15px;
-}
-.scrol{
-    height: 100px;
-}
-.icon{
     color: black;
-}
-
-/*Slider App*/
-.slider{
-    padding-top: 9%;
-    width: 100%;
-    margin: auto;
-    height: 900px;
-    overflow: hidden;
-    padding-bottom: 10%;
-}
-
-.slider ul{
-    padding: 0;
-    display: flex;
-    width: 200%;
-    animation: slider 5s infinite alternate;
-    animation-timing-function: linear;
-}
-
-.slider li{
-    width: 100%;
-    list-style: none;
-}
-
-.slider li img{
-    width: 100%;
-}
-
-@keyframes slider{
-    0% {margin-left: 0;}
-    20%{margin-left: 0;}
-
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-}
-/*Divisor de vistas*/
-.divider{
-    width: auto;
-    height: 100px;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .btn_hover:hover{
+    padding: 4px 5px;
     background-color: #ee703b;
-}
+    border-radius: 15px;  
+    color: black;
+  }
+  .btn_dropdown_style{
+    transition: all 0.5;
+  }
 
+  .btn_dropdown_style:hover{
+    padding: 2px 2px;
+    background-color: #ee703b;
+    border-radius: 15px;  
+    color: black;
+    text-align: center;
+  }
+  
+  .section-1 {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #e03e36;
+    color: white;
+  }
+  .carousel-inner img {
+    height: 50%;
+  }
+  .section-2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center top;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    background: #0d82b8;
+  }
+  .section-3 {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center top;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #ff7c38;
+  }
+  .divuno {
+    background-color: red;
+    height: 200px;
+    width: 400px;
+  }
+  .divdos {
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+  }
+  .section-4 {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center top;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    background: #b80d57;
+  }
+  .footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
