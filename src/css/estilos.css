@@ -44,22 +44,12 @@ html {
     text-align: center;
   }
   
-  .section-1 {
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background: #ee703b;
-    color: white;
-  }
   .carousel-inner img {
     height: 50%;
   }
   .section-2 {
-    padding-top: 10%;
+    padding-top: 12%;
+    padding-bottom: 8%;
     display: flex;
     width: 100%;
     height: 90vh;
@@ -70,7 +60,7 @@ html {
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-    background: #0d82b8;
+    background: #ff7c38;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,49 +68,27 @@ html {
   .card-title{
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
     padding-top: 5px;
     padding-bottom: 10px;
   }
   .card {
     display: block;
     line-height: 1.42857143;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    transition: box-shadow .25s;
-    text-align: center;
-}
-  .card:hover{
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.0),0 6px 20px 0 rgba(0,0,0,0.19);
-  }
-  .section-interline{
-    display: flex;
-    width: 100%;
-    height: 65vh;
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-position: center top;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
-    background: #0d82b8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .card_second{
-    display: block;
-    line-height: 1.42857143;
-    background-color: #fff;
+    background-color: #072e5d;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     transition: box-shadow .25s;
     text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+}
+  .card:hover{
+    box-shadow: 0 8px 17px 0 white,0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .card-subtitle{
-    color: black;
+    color: white;
     font-weight: bold;
     padding-left: 15px;
   }
@@ -139,7 +107,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: #ff7c38;
+    background: #0d82b8;
     justify-content: center;
   }
   .divuno {
