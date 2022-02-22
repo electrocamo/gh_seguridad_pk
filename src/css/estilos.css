@@ -47,6 +47,12 @@ html {
   .carousel-inner img {
     height: 50%;
   }
+
+  .img_body{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+  }
   .section-2 {
     padding-top: 12%;
     padding-bottom: 8%;
@@ -60,39 +66,39 @@ html {
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-    background: #ff7c38;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .card-title{
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 10px;
-  }
+  
   .card {
     display: block;
     line-height: 1.42857143;
-    background-color: #072e5d;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     transition: box-shadow .25s;
     text-align: left;
     margin-left: 2%;
     margin-right: 2%;
-    color: white;
+    color: black;
 }
-  .card:hover{
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    color: 072e5d;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.card:hover{
     box-shadow: 0 8px 17px 0 white,0 6px 20px 0 rgba(0,0,0,0.19);
-  }
-  .card-subtitle{
-    color: white;
+}
+.card-subtitle{
+    color: black;
     font-weight: bold;
     padding-left: 15px;
-  }
-  .section-3 {
+}
+.section-3 {
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
@@ -109,8 +115,8 @@ html {
     align-items: center;
     background: #0d82b8;
     justify-content: center;
-  }
-  .divuno {
+}
+.divuno {
     background-color: red;
     height: 200px;
     width: 400px;
