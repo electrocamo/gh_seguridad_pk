@@ -2,7 +2,6 @@
 //Comprobamos que se haya presionado el boton enviar
 if(isset($_POST['nombre']) && isset($_POST['email']) && isset($_POST['telefono']) && isset($_POST['mensaje'])){
 	//Guardamos en variables los datos enviados
-	echo "se trata de eniar correo";
 	$nombre = $_POST['nombre'];
 	$email = $_POST['email'];
     $telefono = $_POST['telefono'];
@@ -15,8 +14,8 @@ if(isset($_POST['nombre']) && isset($_POST['email']) && isset($_POST['telefono']
 	else if($email == ''){
 		echo "Debe ingresar su email";
     }else{
-	$para = "electrocamo@gmail.com";//Email al que se enviará
-	$asunto = "Contacto Web Genios Tecnologicos";//Puedes cambiar el asunto del mensaje desde aqui
+	$para = "ghseguridadpk@gmail.com";//Email al que se enviará
+	$asunto = "Contacto Web GH Seguridad PK";//Puedes cambiar el asunto del mensaje desde aqui
 	//Este sería el cuerpo del mensaje
 	$mensaje = "
 		<table border='0' cellspacing='3' cellpadding='2'>
@@ -37,7 +36,7 @@ if(isset($_POST['nombre']) && isset($_POST['email']) && isset($_POST['telefono']
 			<td align='left'>$mensaje</td>
 		  </tr>
 	</table>	
-";	
+	";	
 	
 //Cabeceras del correo
     $headers = "From: $nombre <$email>\r\n"; //Quien envia?
