@@ -86,6 +86,20 @@ nav {
 .ourRight {
   width: 500px;
 }
+.containerCard {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.imgCard {
+  margin: 20px;
+}
+.writed {
+  width: 400px;
+  background-color: green;
+}
 .card {
   display: block;
   background-color: white;
@@ -99,7 +113,7 @@ nav {
   margin-right: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 600px;
+  width: auto;
 }
 .card-title {
   text-align: center;
@@ -302,5 +316,9 @@ nav {
   }
   .contactRight {
     padding-left: 10px;
+  }
+  .contactTitle {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
